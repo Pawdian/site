@@ -1,0 +1,23 @@
+.wrapper {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #94a8b3;
+  height: 100px;
+}
+
+.header__content {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
