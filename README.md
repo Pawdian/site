@@ -2,6 +2,9 @@
 
 Here will be our description in the future
 
+Current status:
+![Alt text](image.png)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
