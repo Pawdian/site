@@ -2,8 +2,14 @@ import React from "react";
 import classes from "./Header.module.css";
 import { NavLink } from "react-router-dom";
 import ReactDOM from "react-dom";
-import login_icon from "../../assets/header/🦆 icon _login.png";
-import registration_icon from "../../assets/header/🦆 icon _registration.png";
+
+import MainSearchInput from "../../UI/MainSearchInput";
+
+import login_icon from "../../assets/header/group_icon.svg";
+import registration_icon from "../../assets/header/profile_icon.svg";
+import house_icon from "../../assets/header/house_icon.svg";
+import pen_icon from "../../assets/header/pen_icon.svg";
+import message_icon from "../../assets/header/message_icon.svg";
 
 const Header = () => {
   return (
@@ -16,19 +22,35 @@ const Header = () => {
           </div>
 
           <div className={classes.medium__header}>
-            <div>Header medium section</div>
+            <div className={classes.search__inputBlock}>
+              <MainSearchInput />
+            </div>
+            <div className={classes.topics__block}>
+              <button className={classes.topic}>
+                <img src={house_icon} alt="" />
+                <p>Фанхати</p>
+              </button>
+              <button className={classes.topic}>
+                <img src={pen_icon} alt="" />
+                <p>Автори</p>
+              </button>
+              <button className={classes.topic}>
+                <img src={message_icon} alt="" />
+                <p>Випадкова робота</p>
+              </button>
+            </div>
           </div>
 
           <div className={classes.registration}>
             <div className={classes.registration__block}>
-              <div className={classes.signing__btn}>
+              <button className={classes.signing__btn}>
                 <img src={login_icon} alt="" width={35} />
                 <p>Вхід</p>
-              </div>
-              <div className={classes.signing__btn}>
+              </button>
+              <button className={classes.signing__btn}>
                 <img src={registration_icon} alt="" width={30} />
                 <p>Реєстрація</p>
-              </div>
+              </button>
             </div>
           </div>
         </div>

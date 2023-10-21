@@ -12,7 +12,7 @@ header {
   align-items: center;
   width: 100%;
   background-color: #d9d9d9;
-  height: 120px;
+  height: 150px;
 }
 
 .header__content {
@@ -20,6 +20,7 @@ header {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+  color: #1e1e1e;
 }
 
 .logo__block {
@@ -35,11 +36,52 @@ header {
 }
 
 .logo__status {
-  font-size: 16px;
+  font-size: 12px;
   color: #fff;
   background-color: #94a8b3;
   border-radius: 20px;
-  padding: 0 20px;
+  padding: 0 10px;
+  line-height: 20px;
+}
+
+.medium__header {
+  /* background-color: rebeccapurple; */
+  /* width: 500px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search__inputBlock {
+  /* background-color: #94a8b3; */
+  margin-top: 30px;
+}
+
+.topics__block {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.topic {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.topic:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.topic img {
+  height: 35px;
+  margin: 5px;
+}
+
+.topic p {
 }
 
 .registration {
@@ -47,23 +89,29 @@ header {
 
 .registration__block {
   background-color: #dedcde;
-  padding: 15px;
-  border-radius: 30px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #828e95;
   display: flex;
   gap: 30px;
-  font-size: 20px;
-  box-shadow: -1px 1px 20px #828e95;
+  font-size: 16px;
+  font-weight: 900;
+  box-shadow: -1px 4px 18px #828e95;
 }
 
 .signing__btn {
   display: flex;
   gap: 5px;
   align-items: center;
+  font-size: 16px;
+  color: #1e1e1e;
+  font-weight: bold;
+  transition: all 0.2s;
 }
 
 .signing__btn:hover {
   cursor: pointer;
-  /* bgc */
+  transform: scale(1.05);
 }
 
 .signing__btn img {

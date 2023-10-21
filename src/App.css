@@ -37,3 +37,8 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
