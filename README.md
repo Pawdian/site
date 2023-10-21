@@ -3,7 +3,7 @@
 Here will be our description in the future
 
 Current status:
-![Alt text](image.png)
+![Alt text](image-1.png)
 
 ## Getting Started with Create React App
 
