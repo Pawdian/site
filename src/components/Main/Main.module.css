@@ -79,7 +79,31 @@
   border-radius: 30px;
   margin: 20px;
   width: 800px;
+  position: relative;
 }
+
+.fanfiction__likes {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+
+  gap: 10px;
+  align-items: center;
+}
+
+.fanfiction__likes img {
+  height: 40px;
+}
+.fanfiction__likes span {
+  /* height: 40px; */
+  background-color: #3e9346;
+  color: #faf0e6;
+  padding: 0 10px;
+  border-radius: 20px;
+  font-weight: normal;
+}
+
 .fanfiction__label {
   height: 300px;
   min-width: 200px;

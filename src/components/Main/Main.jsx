@@ -8,6 +8,7 @@ import author3_avatar from "../../assets/main/authors/author3.png";
 import author4_avatar from "../../assets/main/authors/author4.png";
 import author5_avatar from "../../assets/main/authors/author5.png";
 import author6_avatar from "../../assets/main/authors/author6.png";
+import icon_heart from "../../assets/main/icon _heart.png";
 
 const Main = () => {
   return (
@@ -47,6 +48,10 @@ const Main = () => {
       </div>
       <div className={classes.central}>
         <div className={classes.fanfiction}>
+          <div className={classes.fanfiction__likes}>
+            <img src={icon_heart} alt="" />
+            <span>023</span>
+          </div>
           <div className={classes.fanfiction__label}>
             <img src="" alt="" />
           </div>
@@ -87,6 +92,10 @@ const Main = () => {
         </div>
 
         <div className={classes.fanfiction}>
+          <div className={classes.fanfiction__likes}>
+            <img src={icon_heart} alt="" />
+            <span>002</span>
+          </div>
           <div className={classes.fanfiction__label}>
             <img src="" alt="" />
           </div>
