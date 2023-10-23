@@ -50,7 +50,7 @@ const Main = () => {
         <div className={classes.fanfiction}>
           <div className={classes.fanfiction__likes}>
             <img src={icon_heart} alt="" />
-            <span>023</span>
+            <span>002</span>
           </div>
           <div className={classes.fanfiction__label}>
             <img src="" alt="" />
@@ -68,18 +68,21 @@ const Main = () => {
                 <p>автор</p>
               </div>
               <div className={classes.fanfiction__descriptionBlock}>
+                <h3>Фанхата:</h3>
+                <p>фанхата№56</p>
+              </div>
+              <div className={classes.fanfiction__descriptionBlock}>
                 <h3>Позначки:</h3>
-                <span>Позначка</span>
                 <span>Позначка</span>
                 <span>Позначка</span>
               </div>
               <div className={classes.fanfiction__descriptionBlock}>
                 <h3>Розмір:</h3>
-                <p>1672 слова</p>
+                <p>11022 слова</p>
               </div>
               <div className={classes.fanfiction__descriptionBlock}>
-                <h3>Автор:</h3>
-                <p>10.09.2021</p>
+                <h3>Дата:</h3>
+                <p>11.09.2022</p>
               </div>
               <div className={classes.fanfiction__description}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
@@ -112,6 +115,10 @@ const Main = () => {
                 <p>автор</p>
               </div>
               <div className={classes.fanfiction__descriptionBlock}>
+                <h3>Фанхата:</h3>
+                <p>фанхата№56</p>
+              </div>
+              <div className={classes.fanfiction__descriptionBlock}>
                 <h3>Позначки:</h3>
                 <span>Позначка</span>
                 <span>Позначка</span>
@@ -121,7 +128,7 @@ const Main = () => {
                 <p>11022 слова</p>
               </div>
               <div className={classes.fanfiction__descriptionBlock}>
-                <h3>Автор:</h3>
+                <h3>Дата:</h3>
                 <p>11.09.2022</p>
               </div>
               <div className={classes.fanfiction__description}>
